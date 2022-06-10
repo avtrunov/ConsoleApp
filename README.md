@@ -16,27 +16,27 @@ This is the Chatbot project using CMake.
 
 You must have installed vcpkg on your computer.
 
->vcpkg install sqlite3 sqlite3:x64-windows
->vcpkg install cpprest cpprest:x64-windows
->vcpkg install opencv opencv:x64-windows
->vcpkg install tabulate tabulate:x64-windows
->vcpkg install ftxui ftxui:x64-windows
->vcpkg install gtest gtest:x64-windows (optional)
->vcpkg integrate install
+*vcpkg install sqlite3 sqlite3:x64-windows
+*vcpkg install cpprest cpprest:x64-windows
+*vcpkg install opencv opencv:x64-windows
+*vcpkg install tabulate tabulate:x64-windows
+*vcpkg install ftxui ftxui:x64-windows
+*vcpkg install gtest gtest:x64-windows (optional)
+*vcpkg integrate install
 
 # Configuring
 
->mkdir build
->cd build
+*mkdir build
+*cd build
 
-## Disable testing - default
+# Disable testing - default
 
->cmake ..
+*cmake ..
 
-## Enable testing
+# Enable testing
 
->cmake .. -D BUILD_TESTS=ON
+*cmake .. -D BUILD_TESTS=ON
 
 # Building
 
->cmake --build .
+*cmake --build .
